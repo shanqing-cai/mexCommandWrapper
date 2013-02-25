@@ -1,11 +1,15 @@
-﻿Build started 2/24/2013 11:16:58 PM.
+﻿Build started 2/25/2013 1:04:42 PM.
      1>Project "E:\speechres\utils\mexCommandWrapper\mexCommandWrapper\mexCommandWrapper.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "Release\mexCommandWrapper.unsuccessfulbuild".
+         Creating "Release\mexCommandWrapper.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
          All outputs are up-to-date.
-         All outputs are up-to-date.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D MATLAB_MEX_FILE /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MEXCOMMANDWRAPPER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /D _ATL_STATIC_REGISTRY /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt mexCommandWrapper.cpp /MT /export:mexFunction /dll
+     1>cl : Command line warning D9002: ignoring unknown option '/export:mexFunction'
+     1>cl : Command line warning D9002: ignoring unknown option '/dll'
+         mexCommandWrapper.cpp
+     1>mexCommandWrapper.cpp(89): warning C4101: 'fgWinTitle' : unreferenced local variable
      1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\speechres\utils\mexCommandWrapper\Release\mexCommandWrapper.dll) does not match the Linker's OutputFile property value (E:\speechres\utils\mexCommandWrapper\Release\mexCommandWrapper.mexw32). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
      1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.mexw32). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
        Link:
@@ -28,4 +32,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.70
+Time Elapsed 00:00:01.25

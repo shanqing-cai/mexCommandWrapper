@@ -1,4 +1,4 @@
-﻿Build started 2/24/2013 11:17:04 PM.
+﻿Build started 2/25/2013 1:04:56 PM.
      1>Project "E:\speechres\utils\mexCommandWrapper\mexCommandWrapper\mexCommandWrapper.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\mexCommandWrapper.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -10,6 +10,7 @@
      1>cl : Command line warning D9002: ignoring unknown option '/export:mexFunction'
      1>cl : Command line warning D9002: ignoring unknown option '/dll'
          mexCommandWrapper.cpp
+     1>e:\speechres\utils\mexcommandwrapper\mexcommandwrapper\mexcommandwrapper.cpp(89): warning C4101: 'fgWinTitle' : unreferenced local variable
        ManifestResourceCompile:
          All outputs are up-to-date.
      1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\speechres\utils\mexCommandWrapper\Debug\mexCommandWrapper.dll) does not match the Linker's OutputFile property value (E:\speechres\utils\mexCommandWrapper\Debug\mexCommandWrapper.mexw32). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
@@ -35,4 +36,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.08
+Time Elapsed 00:00:01.70
