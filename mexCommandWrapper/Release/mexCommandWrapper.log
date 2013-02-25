@@ -1,0 +1,31 @@
+﻿Build started 2/24/2013 11:16:58 PM.
+     1>Project "E:\speechres\utils\mexCommandWrapper\mexCommandWrapper\mexCommandWrapper.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\mexCommandWrapper.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\speechres\utils\mexCommandWrapper\Release\mexCommandWrapper.dll) does not match the Linker's OutputFile property value (E:\speechres\utils\mexCommandWrapper\Release\mexCommandWrapper.mexw32). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.mexw32). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\speechres\utils\mexCommandWrapper\Release\mexCommandWrapper.mexw32" /INCREMENTAL:NO /NOLOGO libmex.lib libmx.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"E:\speechres\utils\mexCommandWrapper\mexCommandWrapper.def" /MANIFEST /ManifestFile:"Release\mexCommandWrapper.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\speechres\utils\mexCommandWrapper\Release\mexCommandWrapper.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\speechres\utils\mexCommandWrapper\Release\mexCommandWrapper.lib" /MACHINE:X86 /DLL Release\dllmain.obj
+         Release\mexCommandWrapper.obj
+         Release\stdafx.obj
+            Creating library E:\speechres\utils\mexCommandWrapper\Release\mexCommandWrapper.lib and object E:\speechres\utils\mexCommandWrapper\Release\mexCommandWrapper.exp
+     1>LINK : warning LNK4232: name “mexCommandWrapper.mexw32” contains non-ASCII characters, DLL may not load on system with ANSI codepage other than 1252
+     1>mexCommandWrapper.exp : warning LNK4070: /OUT:“mexCommandWrapper.mexw32” directive in .EXP differs from output filename 'E:\speechres\utils\mexCommandWrapper\Release\mexCommandWrapper.mexw32'; ignoring directive
+         Generating code
+         Finished generating code
+     1>mexCommandWrapper.exp : warning LNK4070: /OUT:“mexCommandWrapper.mexw32” directive in .EXP differs from output filename 'E:\speechres\utils\mexCommandWrapper\Release\mexCommandWrapper.mexw32'; ignoring directive
+         mexCommandWrapper.vcxproj -> E:\speechres\utils\mexCommandWrapper\Release\mexCommandWrapper.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\speechres\utils\mexCommandWrapper\Release\mexCommandWrapper.mexw32;#2" /manifest Release\mexCommandWrapper.dll.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\mexCommandWrapper.unsuccessfulbuild".
+         Touching "Release\mexCommandWrapper.lastbuildstate".
+     1>Done Building Project "E:\speechres\utils\mexCommandWrapper\mexCommandWrapper\mexCommandWrapper.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.70

@@ -1,0 +1,2 @@
+LIBRARY “mexCommandWrapper.mexw32”
+EXPORTS mexFunction
